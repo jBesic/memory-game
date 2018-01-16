@@ -1,0 +1,16 @@
+.board {
+    float: left;
+    perspective: 1000px;
+	transform-style: preserve-3d;
+    width: 70%;
+    padding-right: 15px;
+}
+
+/* entire container, keeps perspective */
+.board:before,
+.board:after {
+    content: '';
+    clear: both;
+    display: table;
+    width: 100%;
+}

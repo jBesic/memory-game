@@ -1,0 +1,15 @@
+.game-completed {
+    padding: 15px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #f66;
+}
+
+.game-completed .label {
+    font-size: 4em;
+}
+
+.game-completed .message {
+    font-size: 2em;
+}
